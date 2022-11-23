@@ -1,0 +1,150 @@
+
+.container{
+    background-image: url(../images/background.jpg);
+    height: 802px;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container-header{
+    width: 100%;
+    height: 80px;
+    /* z-index: 100%; */
+    padding-top: 16px;
+    /* position: fixed; */
+}
+.navigation{   
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+    
+}
+.nav-ul{
+    width: 515px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 180px;
+    margin-left: 180px;
+    
+}
+
+.nav-li a{
+   
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.nav-li a:hover{
+    color: #EF6D58;
+}
+
+.buttom{
+    width: 138px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: rgba(255, 255, 255, 0.295743);
+}
+.buttom:hover{
+    background-color: #EF6D58;
+}
+
+.buttom p {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.burger{
+    display: none;
+}
+
+.burger span{
+    display: block;
+    width: 25px;
+    height: 4px;
+    border-radius: 10px;
+    margin-top: 4px;
+    background-color: #fff;
+}
+
+/* home-page */
+
+.homePage-section{
+    /* background-color: blanchedalmond; */
+    position: absolute;
+    height: 580px;
+    left: 200px;
+    right: 200px;
+    top: 135px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.right-container{
+    max-width: 550px;
+    width: 100%;
+    height: 580px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+h1, p{
+    font-family: 'Epilogue', sans-serif;
+    color: #FFFFFF;
+}
+h3{
+    font-family: 'Epilogue', sans-serif;
+    color: #EF6D58
+}
+.right-container h1{
+    font-size: 60px;
+    font-weight: 900;
+    max-width: 513px;
+    width: 100%;
+}
+.right-container p{
+    max-width: 470px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64);
+}
+.buttom-wraper{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* .left-container{
+    max-width: 550px;
+    height: 580px;
+   
+
+} */
+.left-container{
+    display: flex;
+    justify-content: center;
+    max-width: 550px;
+    width: 100%;
+}
+.left-container img{
+    max-width: 550px;
+    width: 100%;
+    object-fit: contain;
+}
+

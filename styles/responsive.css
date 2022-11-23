@@ -1,0 +1,93 @@
+@media(max-width: 1024px){
+
+/* header&main section responsive */
+
+    .nav-ul{
+        margin-right: 90px;
+        margin-left: 90px;
+    }
+    .homePage-section{
+        display: flex;
+        flex-direction: column-reverse;
+        max-height: 650px;
+        height: 100%;
+        left: 100px;
+        right: 80px;
+        top: 100px;
+    }
+    .right-container{
+        max-width: 100%;
+        max-height: 300px;
+        height: 100%;
+        align-items: center;
+    }
+    .right-container h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .right-container p{
+        text-align: center;
+        line-height: 30px;
+    }
+    .buttom-wraper{
+        width: 280px;
+    }
+    .buttom p {
+        font-size: 12px;
+    }
+    .left-container {
+        max-width: 100%;
+        max-height: 300px;
+        height: 100%;
+    }
+
+
+
+}
+
+@media (max-width: 768px){
+    .burger{
+        display: block;
+    }
+
+    .nav-ul, .contact-buttom{
+        display: none;
+    } 
+}
+
+@media(max-width: 375px){
+    .container{
+        height: 950px;
+        justify-content: space-between;
+    }
+    .homePage-section{
+        max-height: 100%;
+        right: 23px;
+        left: 23px;
+        top: 100px;
+    }
+    .right-container{
+        max-height: 435px;
+        align-items: inherit;
+    }
+
+    h3{
+        display: none;
+    }
+    .right-container h1, .right-container p {
+        text-align: left;
+    }
+
+    .right-container h1{
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 64px;
+    }
+    .buttom p{
+        text-align: center;
+    }
+    /* section-about */
+
+
+    
+}
