@@ -11,7 +11,46 @@
     .table-sheet{
         padding-left: 20px;
     }
-   
+    /* portfolio section */
+    .image-text{
+        font-size: 30px;
+    }
+
+    /* conference section */
+
+    .conference-child{
+        padding-left: 15px;
+    }
+    
+    .date span{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .date p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .conference-below-box h4{
+        font-size: 18px;
+    }
+
+    /* prising section */
+    .prising-title-wrapper{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .prising-wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pricing-wrapper-child{
+        width: 80%;
+        height: 400px;
+    }
+
+
 }
 
 @media (max-width: 768px){
@@ -28,7 +67,8 @@
         flex-direction: column-reverse
     }
     .right-container h1, .right-wrapper h2{
-        font-size: 50px;
+        font-size: 35px;
+        line-height: 38px;
     }
 
     /* about section */
@@ -53,7 +93,7 @@
     /* about-work */
     .about-work{
         flex-wrap: wrap;
-        height: 650px;
+        height: 750px;
         justify-content: start;
         margin-top: 20px;
     }
@@ -81,12 +121,53 @@
     .service-table-below{
         flex-direction: column;
         margin-top: 20px;
-        height: 900px;
+        height: auto;
+      
     }
     .table-sheet{
         height: 300px;
+        width: 80%;
     }
 
+    /* portfolio section */
+    .image-wrapper-top, .image-wrapper-below{
+        flex-wrap: wrap;
+        margin-left: 50px;
+    }
+    .second, .fourth{
+        margin-top: 35px;
+    }
+
+    .portfolio-title-wrapper h2{
+        font-size: 35px;
+        line-height: 38px;
+    }
+    .oval{
+        width: 60px;
+        height: 60px;
+    }
+    /* conference wrapper */
+    .conference-wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .conference-child {
+        height: auto;
+        width: 100%;
+        padding: 50px;
+    }
+    /* prising section */
+    .prising-title{
+        font-size: 40px;
+        width: 300px;
+    }
+    .pricing-wrapper-child{
+        width: 100%;
+    }
+
+   
 }
 
 @media(max-width: 375px){
@@ -129,7 +210,7 @@
     }
 
     /* about-work */
-    .h3{
+    .h2{
         font-size: 30px;
     }
     .about-work-child span{
@@ -145,5 +226,24 @@
         margin-bottom: 20px;
     }
 
+    /* portfolio section */
+    .image-top, .image-below{
+        height: 300px;
+    }
+    .portfolio-title-wrapper{
+        height: 180px;
+    }
+    .tag{
+        left: 40px;
+        bottom: 80px;    
+    }
+    
+    .image-text{
+        font-size: 20px;
+        bottom: 30px;  
+    }
+    .box-text{
+        font-size: 13px;
+    }
 
 }
