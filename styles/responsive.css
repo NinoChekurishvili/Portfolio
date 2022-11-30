@@ -49,6 +49,19 @@
         width: 80%;
         height: 400px;
     }
+    #emailAddress{
+        width: 200px;
+    }
+    #subscribe-buttom{
+        width: 200px;
+    }
+
+    .footer-wrapper{
+        width: 90%;
+    }
+    .column-wrapper{
+        width: 250px;
+    }
 
 
 }
@@ -108,6 +121,10 @@
         margin-top: 50px;
         margin-bottom: 50px;
     }
+    .service-table-top h3{
+        font-size: 30px;
+        width: 80%;
+    }
     .line-wrapper{
         padding-top: 0;
         margin-bottom: 0;
@@ -139,6 +156,7 @@
     }
 
     .portfolio-title-wrapper h2{
+        
         font-size: 35px;
         line-height: 38px;
     }
@@ -166,8 +184,43 @@
     .pricing-wrapper-child{
         width: 100%;
     }
+    
+    /* map */
+    .map{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .email-box{
+        flex-direction: column;
+    }
 
-   
+   .letter-wrapper{
+    height: 150px;
+    width: 80%;
+    flex-direction: column;
+    margin-bottom: 50px;
+    }
+    /* contact wrapper */
+    .contact-wraper{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    /* footer */
+    .footer-wrapper{
+        flex-direction: column;
+        height: 300px;
+    }
+    .icon-wrapper{
+        justify-content: start;
+    }
+    .copyright-wrapper span{
+        font-size: 12px;
+    }
+    .copyright-child{
+        width: 150px;
+    }
+    
+
 }
 
 @media(max-width: 375px){
@@ -225,13 +278,16 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
-
+  
     /* portfolio section */
     .image-top, .image-below{
         height: 300px;
     }
     .portfolio-title-wrapper{
         height: 180px;
+    }
+    .portfolio-title-wrapper h2 {
+        font-size: 25px;
     }
     .tag{
         left: 40px;
