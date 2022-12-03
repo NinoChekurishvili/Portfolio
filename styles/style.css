@@ -328,7 +328,7 @@ h3{
     width: 140px;
     cursor: pointer;
   }
-  .read-buttom span {
+  .read-buttom a {
     font-family: 'Epilogue', sans-serif;
     color:#391400;
     font-size: 16px;
@@ -353,7 +353,7 @@ h3{
     border-bottom-color: #3914008f;
     transform: scale(0.1, 1);
   }
-  .read-buttom:hover span {
+  .read-buttom:hover a {
     letter-spacing: 2px;
   }
   .read-buttom:hover::before {
@@ -1356,7 +1356,7 @@ h3{
 }
 
 .poster-wrapper{
-    width: 100%;
+    width: 80%;
     height: 500px;
     margin: 0 auto;
     background-color: #EF6D58;
@@ -1405,8 +1405,6 @@ h3{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
 
 
 
