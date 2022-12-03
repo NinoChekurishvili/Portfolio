@@ -69,7 +69,7 @@
     transition: 0.7s;
 }
 
-.buttom p {
+.buttom a {
     font-family: 'Epilogue', sans-serif;
     font-weight: 900;
     font-size: 13px;
@@ -81,7 +81,7 @@
 
 .burger span{
     display: block;
-    width: 25px;
+    width: 28px;
     height: 4px;
     border-radius: 10px;
     margin-top: 4px;
@@ -253,7 +253,7 @@ h5 {
 .statistic-box{
 
     width: 80%;
-    height: 176px;
+    height: 150px;
     display: flex;
     justify-content: center;
 }
@@ -267,8 +267,9 @@ h5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background: linear-gradient(#FDF0E9, #f5ebe6,#FDF0E9);
+    text-align: center;
+    padding-left: 10px;
+    
     
 }
 
@@ -279,7 +280,7 @@ h5 {
 
 .statistic-box-child span{
     font-family: 'Epilogue', sans-serif;
-    color: #391400;
+    color: #EF6C57;
     font-weight: 800;
     font-size: 40px;
     line-height: 48px;
@@ -549,7 +550,7 @@ h3{
     width: 100%;
     margin-right: 35px;
     border-radius: 2%;
-    opacity: 70%;
+    opacity: 0.5;
 }
 .image-below{
     height: 416px;
@@ -1068,11 +1069,263 @@ h3{
 }
 
 
+/* about page --------------------------- styling */
+.header-wrapper{
+    background-color: #28293E;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
 
+.header-wrapper h1{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+}
+.header-wrapper p{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.64);
+    max-width: 570px;
+    margin: 0 auto;
+}
 
+ /* An Experience Design Agency section */
 
+.agency-container{
+    background-color: #FDF0E9;
+    padding-top: 70px;
+    margin: 0 auto;
+}
+.agency-wrapper{
+    width: 80%;
+    /* height: 300px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+   
+}
+.agency-wrapper-left{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    
 
+}
+.agency-wrapper-right{
+    width: 50%;
+}
+.agency-wrapper-left h2{
+    width: 350px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #391400;
+}
 
+.agency-wrapper-right p{
+    /* width: 50%; */
+  
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+    margin: 20px auto;
+
+}
+
+/* image section */
+.photos-section{
+    background-color: #FDF0E9;
+    display: flex;
+    justify-content: center;
+}
+.photos-wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  
+}
+
+.photos-wrapper-left{
+    background-image: url(../images/Bitmap.jpg);
+    width: 50%;
+    max-width: 570px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 30px;
+    opacity: 0.75;
+    border-radius: 6px;
+}
+.photos-wrapper-left:hover{
+    opacity: 1;
+    transition: 0.7s;
+}
+.photos-wrapper-right{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+
+}
+.photos-wrapper-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+.photos-wrapper-below{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.photo{
+  
+    width: 100%;
+    max-width: 290px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.75;
+    border-radius: 6px;
+}
+.photo:hover{
+   
+    opacity: 1;
+    transition: 0.7s;
+}
+.one{
+    background-image: url(../images/Bitmap1.jpg);
+    margin-right: 30px;
+}
+
+.two{
+    background-image: url(../images/Bitmap2.jpg);
+}
+.three{
+    background-image: url(../images/Bitmap3.jpg);
+    margin-right: 30px;
+}
+.four{
+    background-image: url(../images/Bitmap4.jpg);
+}
+
+.feature-container{
+    background-color: #FDF0E9;
+    padding-top: 100px;
+}
+.feature-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.feature-text-box{
+    width: 336px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 20px;
+
+}
+.feature-text-box h4{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #391400;
+}
+.feature-text{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+}
+.feature-box{
+    width: 70%;
+ 
+    max-width: 670px;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.first-box{
+    width: 336px;
+    height: 336px;
+    background: #FFFFFF;
+    border: 1px solid #F3D1BF;
+    box-shadow: 0px 32px 64px rgba(57, 20, 0, 0.04);
+    border-radius: 6px 6px 0px 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    background: #EF6C57;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+}
+.circle img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.circle-title{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #391400;
+}
+.second-box{
+    width: 336px;
+    height: 270px;
+    border: 1px solid #F3D1BF;
+    box-shadow: 0px 32px 64px rgba(57, 20, 0, 0.04);
+    border-radius: 6px 6px 0px 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+.stat-box{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 0 auto;
+}
 
 
 
