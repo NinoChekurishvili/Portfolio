@@ -1324,8 +1324,90 @@ h3{
     width: 80%;
     display: flex;
     justify-content: center;
-    margin: 50px auto 0 auto;
+    margin: 70px auto 0 auto;
+    padding-bottom: 100px;
 }
+
+/* service page */
+
+.service-page-title{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 38px;
+    color: #391400;
+    margin-top: 20px;
+}
+.service-page{
+    background-color: #FDF0E9;
+    padding-bottom: 50px;
+}
+.service-page-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* poster section */
+.poster-section{
+    background-color:#FDF0E9;
+    padding-bottom: 50px;
+}
+
+.poster-wrapper{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #EF6D58;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.poster-right{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 50px;
+
+
+}
+.poster-right h2{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+.poster-right p{
+    font-family: 'Epilogue', sans-serif;
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64);
+
+}
+
+.poster-left{
+    width: 50%;
+    max-width: 444px;
+    max-height: 400px;
+    height: 100%;
+
+    background-image: url(../images/picposter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 
 
 

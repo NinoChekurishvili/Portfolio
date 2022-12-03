@@ -79,6 +79,14 @@
     
     }
 
+    /* service page */
+   
+    .poster-right h2{
+        font-size: 35px;
+    }
+   
+
+
 
 }
 
@@ -123,11 +131,11 @@
     }
 
     /* about-work */
-    .about-work{
+    .about-work, .service-page-container{
         flex-wrap: wrap;
         height: 750px;
         justify-content: start;
-        margin-top: 20px;
+        /* margin-top: 20px; */
     }
     .about-work-left{
         margin-top: 0;
@@ -301,6 +309,24 @@
         width: 100%;
     }
 
+    /* service page */
+    .poster-wrapper{
+        width: 80%;
+        height: 600px;
+        flex-direction: column;
+    }
+    .poster-right{
+        width: auto;
+    }
+    .poster-right h2{
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .poster-left {
+        width: 70%;
+    }
+    
+
 }
 
 @media(max-width: 375px){
@@ -352,6 +378,9 @@
     .about-work-child p{
         font-size: 15px;
     }
+    .about-work-right{
+        height: 350px;
+    }
 
     /* service section */
     .service-wrapper{
@@ -400,6 +429,12 @@
         justify-content: space-evenly;
     }
 
-   
+    /* service page */
+    .service-page-container{
+        height: auto;
+    }
+    .poster-wrapper{
+        width: 100%;
+    }
 
 }
