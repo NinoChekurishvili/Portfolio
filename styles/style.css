@@ -596,7 +596,7 @@ h3{
     background-color: #FFFFFF;
     width: max-content;;
     height: max-content;
-    padding: 10px;
+    padding: 10px 20px;
     position: absolute;
     left: 48px;
     bottom: 122px;   
@@ -608,6 +608,8 @@ h3{
 .tag-text{
     font-family: 'Epilogue', sans-serif;
     color: #391400;
+    font-size: 12px;
+    line-height: 15px;
 }
 .image-text{
     position: absolute;
@@ -1407,9 +1409,90 @@ h3{
 }
 
 
+/* portfolio page */
+
+.porfolio-page{
+    background-color: #FDF0E9;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.grid-conainer{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    gap: 30px;
+    background-color: #FDF0E9;
+    padding: 30px;
+    width: 80%;
+    height: 1318px;
+
+}
+.grid-image {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    opacity: 0.7;
+}
+.grid-image:hover{
+    opacity: 1;
+    transition: 0.7s;
+}
 
 
+.firstPhoto{
+    background-image: url(../images/1.jpg);
+}
+.secondPhoto{
+    background-image: url(../images/2.jpg);
+}
+.thirdPhoto{
+    background-image: url(../images/3.jpg);
+}
+.fourthPhoto{
+    background-image: url(../images/4.jpg);
+}
+.fifthPhoto{
+    background-image: url(../images/5.jpg);
+}
+.sixthPhoto{
+    background-image: url(../images/6.jpg);
+}
+.seventhPhoto{
+    background-image: url(../images/7.jpg);
+}
+.eighthPhoto{
+    background-image: url(../images/8.jpg);
+}
+.ninthPhoto{
+    background-image: url(../images/9.jpg);
+}
 
+.grid-tag{
+    background-color: #FFFFFF;
+    width: max-content;
+    height: max-content;
+    padding: 10px 20px ;
+    position: absolute;
+    display: flex;
+    left: 48px;
+    bottom: 122px;   
+    border-radius: 19px;
+    opacity: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.grid-tag:hover{
+    background-color:#EF6D58;
+    transition: 0.7s;
+}
+
+.grid-text{
+    font-family: 'Epilogue', sans-serif;
+    color: #391400;
+    font-size: 12px;
+    line-height: 15px;
+}
 
 
 
