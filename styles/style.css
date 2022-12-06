@@ -16,12 +16,16 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.container-header{
+/* .container-header{
     width: 100%;
-    /* height: 80px; */
-    /* z-index: 100%; */
-    /* padding-top: 16px; */
-    /* position: fixed; */
+ 
+} */
+.container-header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
 .navigation{   
     width: 80%;
@@ -79,14 +83,14 @@
     display: none;
 }
 
-.burger span{
+/* .burger span{
     display: block;
     width: 28px;
     height: 4px;
     border-radius: 10px;
     margin-top: 4px;
     background-color: #fff;
-}
+} */
 
 /* home-page */
 h1, h2, p{
@@ -1652,7 +1656,7 @@ h3{
 
 .project-two-img{
     margin: 50px auto;
-    background-image: url(../images/Bitmap-sofa.jpg);
+    background-image: url(../images/sof);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

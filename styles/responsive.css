@@ -100,14 +100,34 @@
     /* header */
     .burger{
         display: block;
+        position: absolute;
+        top: 25px;
+        right: 40px;
+        font-size: 35px;
+        color: #FFFFFF;
     }
 
     .nav-ul{
         display: none;
     } 
+    .nav-ul.navActive{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 35px;
+    }
     .contactUs{
         display: none;
     }
+    .container-header{
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+
+
+
+    
     /* home section */
     .home-container{
         flex-direction: column-reverse
