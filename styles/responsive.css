@@ -6,6 +6,10 @@
         margin-right: 90px;
         margin-left: 90px;
     }
+    .right-container h1{
+        font-size: 50px;
+        line-height: 55px;
+    }
 
     /* table section */
     .table-sheet{
@@ -356,19 +360,18 @@
         grid-template-columns: 40% 40%;
         padding: 10px;
     }
-    .grid-tag{
-        left: 10px;
+    .grid-tag, .tag{
+        left: 15px;
     }
     .image-text{
-        left: 10px;
+        left: 15px;
+        font-size: 20px;
+        bottom: 30px;
     }
     .ninthPhoto{
         display: none;
     }
-    .image-text{
-        font-size: 20px;
-        bottom: 30px;  
-    }
+    
 
     /* first project page */
     .article-title{
@@ -478,7 +481,6 @@
         font-size: 25px;
     }
     .tag{
-        left: 40px;
         bottom: 80px;    
     }
     

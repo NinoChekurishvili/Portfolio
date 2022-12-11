@@ -8,10 +8,16 @@
     <meta name="description" content="Design Agency Web Design">
     <meta name="keywords" content="Design, Website, Service, Web design, Digital">
     <meta name="author" content="Nino Chekurishvili">
-    <meta name="facebook:title" content="Design Agency">
-    <meta name="facebook:description" content="Agency provides a full service range including technical skills, design, business understanding.">
-    <meta name="facebook:url" content="https://github.com/NinoChekurishvili/Portfolio/blob/main/images/4.jpg">
+
+    <meta property="og:title" content="Design Agency"/>
+    <meta property="og:type" content="service"/>
+    <meta property="og:url" content="https://ninochekurishvili.github.io/Portfolio/"/>
+    <meta property="og:image" content="https://github.com/NinoChekurishvili/Portfolio/blob/main/images/4.jpg"/>
+    <meta property="og:site_name" content="Design Agency Web Design"/>
+    <meta property="og:description" content="Agency provides a full service range including technical skills, design, business understanding"/>
+
     <title>Design Agency Web Design</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/icons8-a-100.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
     <!-- aditional CSS files -->
@@ -205,13 +211,13 @@
     <div class="image-wrapper-top">
         <div class="image-top first">
             <div class="tag">
-                <a class="tag-text" href="xx">Design</a>
+                <a class="tag-text" href="firstProject.html">Design</a>
             </div>
             <p class="image-text">SOFA</p>
         </div>
         <div class="image-below second">
             <div class="tag">
-                <a class="tag-text" href="xx">Branding</a>
+                <a class="tag-text" href="firstProject.html">Branding</a>
             </div>
             <p class="image-text">KeyBoard</p>
         </div>
@@ -219,19 +225,19 @@
     <div class="image-wrapper-below">
         <div class="image-below third">
             <div class="tag">
-                <a class="tag-text" href="xx">Illustration</a>
+                <a class="tag-text" href="firstProject.html">Illustration</a>
             </div>
             <p class="image-text">Work Media</p>
         </div>
         <div class="image-top fourth">
             <div class="tag">
-                <a class="tag-text" href="xx">Motion</a>
+                <a class="tag-text" href="firstProject.html">Motion</a>
             </div>
             <p class="image-text">DDDone</p>
         </div>
     </div>
     <div class="buttom explore">
-        <a href="index.html">EXPLORE MORE</a>
+        <a href="portfolio.html">EXPLORE MORE</a>
     </div>
 
     <!-- explore future conferences -->
@@ -378,10 +384,12 @@
    <section class="letter-section" id="letter-section">
         <div class="letter-wrapper">
             <h3>Newsletter</h3>
-            <div class="email-box">
-                <input id="emailAddress" type="email" multiple placeholder="Your email"/>
-                <input id="subscribe-buttom" type="submit" value="Subscribe"/>
-            </div>
+            <form name="form1" action="#">
+                <div class="email-box">
+                    <input id="emailAddress" type="text" multiple placeholder="Your email" name="text1"/>
+                    <input id="subscribe-buttom" type="submit" value="subscribe" onclick="ValidateEmail(document.form1.text1)" />
+                </div>
+            </form>
         </div>
 
         <div class="contact-wraper">
