@@ -1,4 +1,16 @@
 
+.sticky{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #28293E;
+    position:fixed;
+    z-index: 1;
+    transition: 0.7s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .container{
     background-color: #28293E;  
     display: flex; 
