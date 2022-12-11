@@ -5,6 +5,8 @@ burgerbar.addEventListener('click', function(){
     navigation.classList.toggle('navActive')
 })
 
+// sticky header
+
 window.onscroll = function() {myFunction()};
 
 var header = document.getElementById("myHeader");
