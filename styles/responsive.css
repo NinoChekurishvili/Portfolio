@@ -489,6 +489,20 @@
         font-size: 13px;
     }
 
+    .contact-container{
+        width: 70%;
+    }
+    .column-wrapper{
+        width: 80%;
+    }
+    
+    .buttom-wraper {
+        flex-direction: column;
+        width: auto;
+    }
+    .clock{
+        margin-bottom: 20px;
+    }
 
     /* about page */
     /* An Experience Design Agency section */
