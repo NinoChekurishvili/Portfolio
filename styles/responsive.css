@@ -415,6 +415,25 @@
     #email, #subject, #messageBox{
         width: 260px;
     }
+    /* slider */
+    .slider-box-title{
+        font-size: 30px;
+    }
+    .slider-title{
+        font-size: 28px;
+    }
+    #arrow-right{
+        font-size: 25px;
+        right: 20px;
+    }
+    
+    #arrow-left{
+        font-size: 25px;
+        left: 20px;
+    }
+    .bg-image{
+        height: 400px;
+    }
 
 }
 
