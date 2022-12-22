@@ -45,13 +45,13 @@ let data = [
   {
     id: 1,
     imageUrl: "images/slide4.jpg",
-    title: "SOFA",
+    title: "Work Media",
   },
   
   {
     id: 2,
     imageUrl: "images/slide1.jpg",
-    title: "Work Media",
+    title: "SOFA",
   },
   {
     id: 3,
@@ -68,6 +68,17 @@ let data = [
     imageUrl: "images/slide.jpg",
     title: "DDDone",
   },
+  {
+    id: 6,
+    imageUrl: "images/slide6.jpg",
+    title: "Interior",
+  },
+  {
+    id: 7,
+    imageUrl: "images/slide7.jpg",
+    title: "Minimalism",
+  },
+
 ];
 
 const arrowLeft = document.getElementById("arrow-left");
@@ -161,3 +172,40 @@ arrowRight.addEventListener("click", arrowRightClick);
 
 slide();
 
+// fetch
+
+fetch("https://reqres.in/api/users?page=1&per_page=4", {
+  method: "GET",
+})
+  .then(function (text1) {
+    if (text1.status != 200) {
+      throw text1.status;
+    }
+    return text1.json();
+  })
+  .then(function (text2) {
+    let customersWrapper = document.getElementById("customersWrapper");
+    text2.data.forEach((item) => {
+      let div = document.createElement("div");
+      div.classList.add("customer-box");
+
+      let customerDiv = document.createElement("div");
+      let img = document.createElement("img");
+      img.classList.add("customer-image");
+      img.src = item.avatar;
+      img.alt = "avatar";
+      customerDiv.appendChild(img);
+
+      let customerName = document.createElement("h4");
+      customerName.innerText = item.first_name + " " + item.last_name;
+
+      let comment = document.createElement("h5");
+      comment.innerText = "highly recomended";
+
+      div.appendChild(customerDiv);
+      div.appendChild(customerName);
+      div.appendChild(comment);
+
+      customersWrapper.appendChild(div);
+    });
+  });

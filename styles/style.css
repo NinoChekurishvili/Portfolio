@@ -1685,6 +1685,7 @@ h3{
     letter-spacing: -1px;
     color: #28293E;
     text-align: center;
+    margin-bottom: 20px;
 }
 .slider-container{
     background-color: #FDF0E9;
@@ -1693,14 +1694,14 @@ h3{
 
 .slider-wrapper {
     position: relative;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .bg-image {
     margin: 0 auto;
-    width: 80%;
-    height: 500px;
+    width: 100%;
+    height: 480px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1727,7 +1728,7 @@ h3{
 }
 
 .slider-title{
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
 }
 .dotParent {
@@ -1820,8 +1821,54 @@ h3{
 }
 
 
+/* customers */
+
+.customers-section{
+    background-color: #FDF0E9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 
+.customer-box-title{
+    text-align: center;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #391400;
+    margin-bottom: 50px;
+
+}
+
+#customersWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+}
+
+.customer-box{
+    margin: 10px;
+}
+.customer-box h4{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 30px;
+    color: #391400;
+}
+
+.customer-box h5{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+}
 
 
 
