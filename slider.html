@@ -63,21 +63,32 @@
         </header>
     </div>
 
-    <!-- <section class="slider-container">
-        <div class="slider-wrapper">        
-            <i class="fa-solid fa-arrow-left" id="arrow-left"></i>
-            <i class="fa-solid fa-arrow-right" id="arrow-right"></i>
-           <div class="slider-content" id="slider-content"></div>
+    <section>
+        <div class="contact-box">
+            <form id="contactWrapper" >
+                <div>
+                  <input type="email" name="email" id="email" placeholder="Your email"/>
+                  <span class="error-text" id="error_email"></span>
+                </div>
+                
+                <div>
+                  <input type="text" name="subject" id="subject" placeholder="Subject"/>
+                  <span class="error-text" id="error_subject"></span>
+                </div>
+                <div>
+                  <textarea rows="8" name="messagebox" id="messageBox" placeholder="Message" ></textarea>
+                  <span class="error-text" id="error_messageBox"></span>
+                </div>
+                <button type="submit">Submit Now</button>
+            </form>
         </div>
-
-  
-    </section> -->
-
+     
+    </section>
     
 
 
 
 
-    <script src="script.js"></script>
+    <script src="scriptValidation.js"></script>
 </body>
 </html>

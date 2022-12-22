@@ -1750,6 +1750,74 @@ h3{
 }
 
 /* api */
+.contact-form{
+    background-color: #FDF0E9;
+    padding-bottom: 50px;
+}
+.error-text{
+    color:#EF6D58;
+    display: block;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 14px;
+}
+.contact-box{
+    display: flex;
+    justify-content: center;
+}
+
+#contactWrapper{
+    width: 470px;
+    height: 500px;
+    padding: 40px;
+    
+    background-color: #FFFFFF;
+    border: 2px solid #F3D1BF;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.cotactTitle{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #391400;
+    text-align: center;
+}
+
+#email,
+#subject{
+    width: 374px;
+    height: 48px;
+    border: 2px solid #F3D1BF;
+    border-radius: 0px 6px 6px 0px;
+    text-align: center;
+}
+#messageBox{
+    width: 374px;
+    height: 96px;
+    border: 2px solid #F3D1BF;
+    border-radius: 6px;
+    text-align: center;
+
+}
+.submit-button{
+    cursor: pointer;
+    background-color: #EF6C57; 
+    display: block;
+    width: 154px;
+    height: 45px;
+    border-style: none;
+    font-size: 15px;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
 
 
 

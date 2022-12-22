@@ -161,6 +161,3 @@ arrowRight.addEventListener("click", arrowRightClick);
 
 slide();
 
-// api
-
-

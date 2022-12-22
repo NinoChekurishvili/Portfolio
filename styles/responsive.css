@@ -409,6 +409,13 @@
         margin-right: 15px;
     }
 
+    #contactWrapper{
+        width: 80%;
+    }
+    #email, #subject, #messageBox{
+        width: 260px;
+    }
+
 }
 
 @media(max-width: 375px){
@@ -533,5 +540,9 @@
     .grid-conainer {
         grid-template-columns: 80%;
         height: 2800px;
+    }
+
+    #email, #subject, #messageBox{
+        width: 200px;
     }
 }
